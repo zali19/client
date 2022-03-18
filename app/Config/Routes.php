@@ -33,6 +33,13 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 //$routes->resource("restclient"); #create,put,get,delete
 
+// bisa tambahin
+// $routes->resource('restclient');
+// atau
+// $routes->get('products', 'Product::feature');
+// $routes->post('products', 'Product::feature');
+// sesuaikan sama method requestnya get/post yang dicontroller
+
 /**
  * --------------------------------------------------------------------
  * Additional Routing
